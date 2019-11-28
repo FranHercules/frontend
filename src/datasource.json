@@ -1,0 +1,31 @@
+{
+    "roomData": [
+        {
+            "Id": 1,
+            "Subject": "Aguila vs FAS",
+            "Description": "Meeting to discuss jfjcgcgcgcgcgcgcbusiness goal of 2018.",
+            "StartTime": "2018-08-01T20:30:00.000",
+            "EndTime": "2018-08-01T21:30:00.000",
+            "RoomId": 1
+        },
+
+        {
+            "Id": 2,
+            "Subject": "Training session on JSP",
+            "Description": "Knowledge sharing on JSP topics.",
+            "StartTime": "2018-07-30T09:30:00.000Z",
+            "EndTime": "2018-07-30T11:30:00.000Z",
+            "RoomId": 5
+        },
+
+        {
+            "Id": 3,
+            "Subject": "Sprint Planning with Team members",
+            "Description": "Planning tasks for sprint.",
+            "StartTime": "2018-07-30T04:00:00.000Z",
+            "EndTime": "2018-07-30T05:30:00.000Z",
+            "RoomId": 3
+        }
+    ]
+}
+

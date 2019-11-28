@@ -1,0 +1,103 @@
+
+/*Contenedor prinsipal del Header */
+#head {
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: blue;
+}
+/*Contenedor de la imagen uca.png*/
+#logo {
+    box-sizing: content-box;
+    width: 150px;
+    height: 100px;
+    margin: 5px 1px 0px 10px;
+}
+/*Contenedor del input de fecha*/
+#fecha{
+    width: 155px;
+    height: 50px;
+    margin: 30px 0px 1px 90px;
+}
+/*Boton de para ir a la fecha indicada*/
+#btnIr{
+    width: 100px;
+    height: 50px;
+    margin: 32px 1px 0px 1px;
+}
+/*texto de Search*/
+#textS{
+    font-size: 20px;
+    margin: 32px 3px 0px 80px;
+
+}
+/*Input encargado del Search*/
+#search{
+    margin: 32px 1px 0px 1px;
+
+}
+/*Enlace para el formulario Login*/
+#btnLogin > p{
+    font-size: 20px;
+    margin: 32px 0px 0px 90px;
+}
+
+#main{
+    margin: 15px 0px 0px 100px;
+}
+
+.menu ul{
+    list-style: none;
+    position: absolute;
+}
+.menu > a{
+    display: inline-block;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    margin: 1px 1px 1px 1px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+
+}
+.menu a:hover{
+    color: brown;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    visibility: hidden;
+}
+
+.submenu li a{
+    display: block;
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open sans';
+
+}
+
+#root{
+
+}
+
+#header{
+    position: relative;
+    
+
+}
+
+.li{
+    width: 150px;
+    height: 70px;
+}
+
+.menu .li:hover .submenu{
+    visibility: visible;
+}
